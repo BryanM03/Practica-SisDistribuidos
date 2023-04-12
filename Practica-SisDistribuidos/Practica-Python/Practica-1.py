@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
 end_time = time.time()
 
-print("La suma es:", sum)
+print("La suma es:", counter.get())
 print("El tiempo de ejecución fue:", end_time - start_time, "segundos")
 
 
